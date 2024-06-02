@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+    font-family:sans-serif;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(to right bottom ,rgb(138, 83, 83),rgb(109, 58, 58));
+    color:white;
+
+}
+.container{
+    border:0.5px solid white; 
+    border-radius:20px;
+    padding:28px 30px;
+    display:flex;
+    flex-direction: column;
+    background:transparent;
+    box-shadow: 8px 8px 4px rgb(255, 253, 253) , 8px 8px 0px white;
+}
+.container h1{
+    font-size:1.4rem;
+    margin-block : 8px;
+}
+.passBox{
+    background : white;
+    border:none;
+    outline:none;
+    padding:10px;
+    width:300px;
+    border-radius:5px;
+    font-size:20px;
+    margin-block:8px;
+}
+.row{
+    display:flex;
+    margin-block :8px;
+}
+.row p, .row label{
+    flex-basis:100%;
+    font-size:18px;
+}
+.row input[type="checkbox"]{
+    height:20px;
+    width:20px;
+}
+.genbtn{
+    border:none;
+    outline:none ;
+    background-color:rgb(42, 96, 144);
+    padding :12px 24px;
+    color:white;
+    font-size:18px;
+    font-weight: 700;
+    margin-block: 8px;
+    cursor:pointer;
+    border-radius:4px;
+}
+.genbtn:hover{
+    background-color: rgb(35, 44, 160);
+}
